@@ -1,22 +1,24 @@
 # Segunda Parte - Funcionalidades Pendentes
 
-## O que foi implementado (25% do trabalho)
+## O que foi implementado
 
-### ✅ Funcionalidade Implementada
+### ✅ Funcionalidades Implementadas
 
 - **escrever <texto>**: Adiciona uma nova linha ao editor ✅
 
-### ✅ Estrutura Base
+### ✅ Estrutura Base Completa
 
-- Projeto TypeScript configurado
+- Projeto TypeScript configurado e funcionando
 - Interface de console interativa
 - Command Pattern implementado
 - `WriteCommand` funcionando
 - `CommandHistory` para gerenciar histórico
+- Estrutura de comandos criada
+- Arquivos de configuração (package.json, tsconfig.json, .gitignore)
 
-## O que falta implementar (75% restante)
+## O que falta implementar (restante)
 
-### 🔄 Funcionalidades Obrigatórias
+### 🔄 Funcionalidades Pendentes
 
 - **desfazer**: Remove a última linha escrita
 - **listar**: Mostra todo o conteúdo atual

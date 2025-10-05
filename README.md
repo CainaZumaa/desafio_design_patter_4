@@ -4,7 +4,7 @@ Um editor de texto simples em console que implementa o padrão Command para gere
 
 ## Funcionalidades
 
-- **escrever <texto>**: Adiciona uma nova linha ao editor ✅
+- **escrever <texto>**: Adiciona uma nova linha ao editor ✅ (IMPLEMENTADO)
 - **desfazer**: Remove a última linha escrita (PENDENTE)
 - **listar**: Mostra todo o conteúdo atual (PENDENTE)
 - **sair**: Encerra a aplicação (PENDENTE)

@@ -1,0 +1,25 @@
+{
+  "name": "text-editor-console",
+  "version": "1.0.0",
+  "description": "Console text editor with undo functionality",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "text-editor",
+    "console",
+    "typescript",
+    "design-patterns"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}

@@ -76,8 +76,25 @@ export class TextEditorApp {
     console.log(`Added: "${text}"`);
   }
 
-  // Métodos para serem implementados:
-  // - handleUndoCommand()
-  // - handleListCommand()
-  // - handleExitCommand()
+  private handleUndoCommand(): void {
+    if (!this.commandHistory.canUndo()) {
+      console.log("Nothing to undo");
+      return;
+    }
+
+    const undoCommand = new UndoCommand(this.textEditor);
+    this.commandHistory.executeCommand(undoCommand);
+    console.log("Undo completed");
+  }
+
+  private handleListCommand(): void {
+    const listCommand = new ListCommand(this.textEditor);
+    this.commandHistory.executeCommand(listCommand);
+  }
+
+  private handleExitCommand(): void {
+    console.log("Goodbye!");
+    this.isRunning = false;
+    this.rl.close();
+  }
 }
